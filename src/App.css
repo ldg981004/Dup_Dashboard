@@ -1,0 +1,46 @@
+.main-container {
+  width: 1860px;
+  height: 1000px;
+  margin: auto;
+  display: grid;
+  background: radial-gradient(circle,rgb(17, 17, 207), black, rgb(20, 5, 77));
+  grid-template-columns: 300px 1500px; /* 각 행(세로줄)의 길이 */
+  grid-template-rows: 1000px; /* 각 열(가로줄)의 길이 */
+  /* gap: 10px;  자식요소간의 간격 */
+}
+
+.left{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px 900px;
+  grid-template-columns: 300px;
+}
+
+.line{
+  background-color: yellow;
+  height: 1px;
+}
+
+.right{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px 900px;
+  grid-template-columns: 1500px;
+}
+
+.right-bottom{
+  display: grid;
+  grid-template-rows: 180px 360px 360px;
+  grid-template-columns: 100%;
+}
+
+
+.box{
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

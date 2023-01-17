@@ -1,0 +1,40 @@
+.lb_top{
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+}
+
+.lb_bottom{
+    font-size: 15px;
+    color: white;
+    font-weight: bold; 
+}
+
+.lb_left{
+    margin-top: 1%; 
+}
+
+.div_bottom{
+    margin-top: 0.5%;
+}
+
+.lb_right{
+    text-align: right;
+    margin-right: 3%;
+}
+
+.inputbox{
+    background: none;
+    height: 25px;
+    border-radius: 30px;
+    border-width: 0.05cm;
+    color: white;
+    
+}
+
+.signin{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 1%;
+}

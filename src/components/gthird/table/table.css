@@ -1,0 +1,24 @@
+.tb_head{
+    font-size: 11px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.tb_body{
+    font-size: 13.5px;
+}
+
+
+
+.tb_table{
+    border-collapse: separate;
+    border-spacing:  40px 15px;
+    border-color: red;
+    border: 1px;
+}
+
+.hr_line{
+    background-color: gray;
+    width: 0px;
+    height: 1px;
+  }

@@ -1,0 +1,58 @@
+.sepsecond{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    height: 20vh;
+    grid-template-rows: 100%;
+    grid-template-columns: 31% 31% 31%;
+    gap: 4%;
+  }
+
+.sg1{
+  background: linear-gradient(70deg, rgb(13, 7, 49), rgb(27, 27, 110));
+  opacity: 90%;
+   width: 480px;
+   height: 300px;
+   font-size: 20px;
+   border-radius: 0.8em;
+   margin-top: 3%;
+ }
+
+ .index2{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.name{
+  font-size: 17;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 3%;
+  color: white;
+}
+
+.circlebar{
+  width: 25%;
+  height: 25%;
+  margin-top: 3%;
+  margin-left: 35%;
+}
+
+.subname{
+  font-size: 12px;
+  font-weight: bold;
+  color: lightgray;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.rectangle{
+  display: inline-block;
+  width: 80%;
+  height: 25px;
+  background: linear-gradient(rgb(133, 187, 158), rgb(6, 41, 6));
+  margin-left: 10%;
+  margin-top: 10%;
+}
